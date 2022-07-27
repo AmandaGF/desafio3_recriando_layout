@@ -1,0 +1,101 @@
+/* CSS Fonte 
+
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Open Sans', sans-serif;*/
+
+body {
+
+    background-color: #2C2B3D;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 71px 98px 101px 99px;
+}
+
+nav ul {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+
+    list-style: none;
+
+    display: flex;
+    gap: 64px;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 82px;
+
+    margin: 0px 89px 157px 99px;
+}
+
+#computer {
+    align-items: center;
+}
+
+#text {
+
+    margin-left: 82px;
+
+}
+
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 36px;
+    font-weight: normal;
+
+    text-align: center;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+span {
+    color: #00BFA6;
+}
+
+a {
+    cursor:pointer;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+    
+}
+
+footer {
+
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    text-align: center;
+    
+    margin-bottom: 23px;
+}
+
+#line {
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 8px;
+    border: 1px #00BFA6 solid;
+}
+
+#cadeado {
+    
+    position: fixed;
+    bottom:0;
+    left:0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
