@@ -4,7 +4,6 @@ font-family: 'JetBrains Mono', monospace;
 font-family: 'Open Sans', sans-serif;*/
 
 body {
-
     background-color: #2C2B3D;
     color: #FFFFFF;
     margin: 0px;
@@ -25,12 +24,11 @@ nav ul {
 
     display: flex;
     gap: 64px;
-
 }
 
 main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 82px;
 
     margin: 0px 98px 157px 99px;
@@ -41,9 +39,7 @@ main {
 }
 
 #text {
-
     margin-left: 82px;
-
 }
 
 h1 {
@@ -72,7 +68,6 @@ a {
 
 a:hover {
     font-weight: bold;
-    
 }
 
 footer {
@@ -92,7 +87,6 @@ footer {
 }
 
 #cadeado {
-    
     position: fixed;
     bottom:0;
     left:0;
