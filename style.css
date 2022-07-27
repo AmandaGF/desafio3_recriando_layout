@@ -30,10 +30,10 @@ nav ul {
 
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 82px;
 
-    margin: 0px 89px 157px 99px;
+    margin: 0px 98px 157px 99px;
 }
 
 #computer {
